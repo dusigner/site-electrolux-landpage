@@ -1,0 +1,209 @@
+/* HotSiteElectolux - Style for dusigner.com.br*/
+@font-face {
+    font-family: 'E_regular';
+    src: url('../font/electroluxsans_3_regular-webfont.eot');
+    src: url('../font/electroluxsans_3_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/electroluxsans_3_regular-webfont.woff2') format('woff2'),
+         url('../font/electroluxsans_3_regular-webfont.woff') format('woff'),
+         url('../font/electroluxsans_3_regular-webfont.ttf') format('truetype'),
+         url('../font/electroluxsans_3_regular-webfont.svg#electrolux_sans_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'E_semibold';
+    src: url('../font/electroluxsans_4_semibold-webfont.eot');
+    src: url('../font/electroluxsans_4_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/electroluxsans_4_semibold-webfont.woff2') format('woff2'),
+         url('../font/electroluxsans_4_semibold-webfont.woff') format('woff'),
+         url('../font/electroluxsans_4_semibold-webfont.ttf') format('truetype'),
+         url('../font/electroluxsans_4_semibold-webfont.svg#electrolux_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'E_bold';
+    src: url('../font/electroluxsans_5_bold-webfont.eot');
+    src: url('../font/electroluxsans_5_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/electroluxsans_5_bold-webfont.woff2') format('woff2'),
+         url('../font/electroluxsans_5_bold-webfont.woff') format('woff'),
+         url('../font/electroluxsans_5_bold-webfont.ttf') format('truetype'),
+         url('../font/electroluxsans_5_bold-webfont.svg#electrolux_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-size: 1em;
+    color: white;
+    line-height: 1.3em;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #cb66a4;
+}
+header {
+    background: url("../../img/background.jpg");
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+}
+header .logo {
+    display: block;
+    margin-bottom: 10px;
+}
+header h1 {
+    color: white;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: -3px;
+    line-height: 65px;
+}
+header h1 strong {
+    color: #cb66a4;
+    font-size: 80px;
+}
+header h1 span {
+    font-size: 80px;
+}
+section {
+    background-color: #000e44;
+    padding: 100px 50px 50px 50px;
+}
+section h1 {
+    color: white;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 100;
+    font-family: E_regular;
+}
+section h1 span div {
+    font-size: 1.0em;
+    display: inline;
+    font-family: E_semibold;
+}
+section h1 strong {
+    font-family: E_bold;
+    font-size: 1.15em;
+}
+section h1 span:first-child {
+    font-family: E_regular;
+    font-size: 1.316em;
+}
+section h1 span:last-child {
+    font-family: E_semibold;
+    font-size: 0.933em;
+}
+section h2 {
+    font-family: E_semibold;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin-top: 25px;
+    letter-spacing: -1px;
+}
+section small {
+    font-size: 0.8em;
+}
+section small span {
+    font-family: E_semibold;
+}
+footer {
+    height: 250px;
+    background-color: #fff;
+    display: block;
+}
+.button , .md-close {
+    font-family: E_bold;
+    background-color: #cb66a4;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.button:hover , .md-close:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.purple {
+    color: #cb66a4;
+}
+.v-paddin-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.img-pachot {
+    z-index: 9;
+    position: relative;
+    margin-top: 20px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.img-width-80 img{
+    width: 80%;
+    max-width: 252px;
+}
+/* xs */
+@media (max-width: 767px) {
+    body {
+        font-size: 1em;
+    }
+    section h1 {
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .show-title {
+        display: block;
+    }
+    .align-right {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+/* sm */
+@media (max-width: 992px) {
+    section {
+        background-color: #000e44;
+        padding: 17px;
+    }
+    section h1 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .show-title {
+        display: block;
+    }
+}
+@media (max-width: 1200px) {
+
+    section h1 {
+        display: block;
+        font-size: 1.7em;
+    }
+    .show-title {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 1em;
+    }
+    section h1 {
+        display: block;
+        font-size: 2.5em;
+    }
+    .show-title {
+        display: none;
+    }
+}
